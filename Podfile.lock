@@ -1,0 +1,30 @@
+PODS:
+  - CocoaAsyncSocket (7.6.3)
+  - MJExtension (3.0.15.1)
+  - Realm (3.11.1):
+    - Realm/Headers (= 3.11.1)
+  - Realm/Headers (3.11.1)
+  - RealmSwift (3.11.1):
+    - Realm (= 3.11.1)
+
+DEPENDENCIES:
+  - CocoaAsyncSocket
+  - MJExtension
+  - RealmSwift
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - CocoaAsyncSocket
+    - MJExtension
+    - Realm
+    - RealmSwift
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: eafaa68a7e0ec99ead0a7b35015e0bf25d2c8987
+  MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
+  Realm: 037c5919b9ceb59d6beed5d3b031096856b119b3
+  RealmSwift: c9580133e73ef40ed340401af2dbc9a5790dfea7
+
+PODFILE CHECKSUM: 2617c3c4295885d0703e4a9895d4f5cadc2bfbdc
+
+COCOAPODS: 1.5.0
