@@ -55,4 +55,6 @@ class LMMessageBody: Object {
     
     @objc dynamic var to: String? = nil
     
+    @objc dynamic var isFrom: Bool = false
+    
 }

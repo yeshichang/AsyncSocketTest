@@ -32,6 +32,8 @@ class ViewController: UIViewController {
         
         chatManager.add(self)
         
+        navigationItem.rightBarButtonItem = UIBarButtonItem.init(title: "聊天", style: .plain, target: self, action: #selector(chat))
+        
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
@@ -47,6 +49,9 @@ class ViewController: UIViewController {
         textField.text = nil
     }
     
+    @objc func chat() {
+        navigationController?.pushViewController(LMChatController(), animated: true)
+    }
 }
 
 extension ViewController: LMChat_ManagerDelegate {
